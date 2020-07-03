@@ -11,3 +11,6 @@ events 라는 내장 모듈을 사용해야 함 <br>
 1. events 내장 모듈 불러오기
 2. EvenEmitter 이용 하여 초기화
 3. on() 함수 재정의
+
+## setInterval(void, num);
+num(ms)마다 매개변수로 받은 함수가 실행됨
