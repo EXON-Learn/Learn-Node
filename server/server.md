@@ -16,7 +16,7 @@ server.listen(8080, function(){
 }); 
 
 ```
-server.js 을 실행하고 localhost:8000 에 접속하면 ```Hello node.js!!``` 가 나타나게 된다.
+server.js 을 실행하고 localhost:8000 에 접속하면 ```Hello node.js!!``` 가 나타나게 된다. <br>
 <img src="1.png"/> <br>
 
 이제 코드를 차근차근 알아가보자. <br>
