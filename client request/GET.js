@@ -9,12 +9,12 @@ var server = http.createServer(function(request,response){
     console.log(parsedUrl);
 
     var parsedQuery = querystring.parse(parsedUrl.query,'&','=');
-    console.log(parsedQuery);
+    console.log(parsedQuery.name);
 
     console.log('--- log end ---');
 
-    response.writeHead(200, {'Content-Type':'text/html'});
-    response.end('Hello node.js!!');
+    response.writeHead(200, {'Content-Type':'text/html; charset=utf-8'});
+    response.end(`${parsedQuery.name} 천재`);
 });
 
 server.listen(8080, function(){
